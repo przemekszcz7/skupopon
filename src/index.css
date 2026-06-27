@@ -229,6 +229,7 @@ img {
   transition: var(--transition-slow);
   box-shadow: var(--shadow-lg);
   z-index: 105;
+  visibility: hidden;
 }
 
 .nav-link {
@@ -265,6 +266,7 @@ img {
 /* Hamburger state changes */
 .nav-toggle:checked ~ .nav-menu {
   right: 0;
+  visibility: visible;
 }
 
 .nav-toggle:checked ~ .nav-toggle-label span:nth-child(1) {
@@ -1025,6 +1027,8 @@ img {
   font-size: 1.25rem;
   font-weight: 600;
   color: var(--color-white);
+  word-break: break-all;
+  overflow-wrap: break-word;
 }
 
 .contact-card-details a:hover {
@@ -1363,6 +1367,7 @@ textarea.form-control {
     box-shadow: none;
     align-items: center;
     gap: 2rem;
+    visibility: visible;
   }
 
   .nav-link {
