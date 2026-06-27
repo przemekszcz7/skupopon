@@ -1,0 +1,6 @@
+{
+  "name": "Skup Opon i Felg Białystok",
+  "description": "Profesjonalny skup opon używanych, felg aluminiowych i stalowych oraz całych kół w Białymstoku i okolicach. Szybka wycena, uczciwe ceny, darmowy dojazd.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
